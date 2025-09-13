@@ -1,0 +1,171 @@
+{
+  "user_id": "user_036",
+  "created_at": "2024-11-18T15:31:56.363976",
+  "updated_at": "2024-12-09T15:31:56.363976",
+  "demographics": {
+    "age": 54,
+    "gender": "female",
+    "height": 168,
+    "weight": 66.0,
+    "occupation": "办公室工作",
+    "location": "北京"
+  },
+  "health_status": {
+    "chronic_conditions": [
+      "关节炎",
+      "甲状腺疾病"
+    ],
+    "allergies": [],
+    "current_medications": [
+      "降压药"
+    ],
+    "recent_symptoms": [],
+    "medical_history": [
+      "重大疾病史"
+    ]
+  },
+  "lifestyle": {
+    "exercise_frequency": "每周3-4次",
+    "exercise_type": "跑步",
+    "diet_type": "地中海饮食",
+    "sleep_hours": 8.2,
+    "sleep_quality": "好",
+    "stress_level": "低",
+    "smoking": false,
+    "alcohol_consumption": "每周1-2次",
+    "work_schedule": "轮班"
+  },
+  "health_goals": {
+    "primary_goals": [
+      "血压控制"
+    ],
+    "target_weight": null,
+    "target_bp_systolic": 135,
+    "target_bp_diastolic": 87,
+    "target_blood_sugar": null,
+    "timeline": "1个月"
+  },
+  "risk_profile": {
+    "medical_risk_tolerance": "积极型",
+    "lifestyle_change_tolerance": "保守型",
+    "exercise_intensity_preference": "低",
+    "diet_change_willingness": "高"
+  },
+  "data_sources": {
+    "wearable_devices": [],
+    "health_apps": [
+      "丁香医生",
+      "平安好医生"
+    ],
+    "medical_records": false,
+    "lab_results": false
+  },
+  "health_data_history": {
+    "体重": [
+      {
+        "timestamp": "2025-06-13T15:31:56.364976",
+        "value": 77.0
+      },
+      {
+        "timestamp": "2025-06-18T15:31:56.364976",
+        "value": 78.1
+      },
+      {
+        "timestamp": "2025-06-18T15:31:56.364976",
+        "value": 76.2
+      },
+      {
+        "timestamp": "2025-06-25T15:31:56.364976",
+        "value": 72.6
+      },
+      {
+        "timestamp": "2025-06-26T15:31:56.364976",
+        "value": 73.9
+      },
+      {
+        "timestamp": "2025-06-26T15:31:56.364976",
+        "value": 76.6
+      },
+      {
+        "timestamp": "2025-07-03T15:31:56.364976",
+        "value": 73.2
+      },
+      {
+        "timestamp": "2025-07-04T15:31:56.364976",
+        "value": 76.1
+      },
+      {
+        "timestamp": "2025-07-04T15:31:56.364976",
+        "value": 75.8
+      },
+      {
+        "timestamp": "2025-07-14T15:31:56.364976",
+        "value": 75.0
+      },
+      {
+        "timestamp": "2025-07-23T15:31:56.364976",
+        "value": 72.4
+      },
+      {
+        "timestamp": "2025-07-23T15:31:56.364976",
+        "value": 74.8
+      },
+      {
+        "timestamp": "2025-07-25T15:31:56.364976",
+        "value": 72.5
+      },
+      {
+        "timestamp": "2025-07-26T15:31:56.364976",
+        "value": 77.9
+      },
+      {
+        "timestamp": "2025-07-26T15:31:56.364976",
+        "value": 75.2
+      },
+      {
+        "timestamp": "2025-07-27T15:31:56.364976",
+        "value": 77.1
+      },
+      {
+        "timestamp": "2025-08-03T15:31:56.364976",
+        "value": 72.5
+      },
+      {
+        "timestamp": "2025-08-06T15:31:56.364976",
+        "value": 76.7
+      },
+      {
+        "timestamp": "2025-08-12T15:31:56.364976",
+        "value": 75.2
+      },
+      {
+        "timestamp": "2025-08-13T15:31:56.364976",
+        "value": 78.3
+      },
+      {
+        "timestamp": "2025-08-14T15:31:56.364976",
+        "value": 78.2
+      },
+      {
+        "timestamp": "2025-08-15T15:31:56.364976",
+        "value": 72.4
+      },
+      {
+        "timestamp": "2025-08-16T15:31:56.364976",
+        "value": 77.4
+      },
+      {
+        "timestamp": "2025-08-18T15:31:56.364976",
+        "value": 77.9
+      },
+      {
+        "timestamp": "2025-08-25T15:31:56.364976",
+        "value": 75.6
+      },
+      {
+        "timestamp": "2025-09-02T15:31:56.364976",
+        "value": 75.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "user_id": "user_034",
+  "created_at": "2025-07-14T15:31:56.356979",
+  "updated_at": "2025-07-24T15:31:56.356979",
+  "demographics": {
+    "age": 55,
+    "gender": "male",
+    "height": 169,
+    "weight": 69.1,
+    "occupation": "制造业",
+    "location": "西安"
+  },
+  "health_status": {
+    "chronic_conditions": [],
+    "allergies": [],
+    "current_medications": [],
+    "recent_symptoms": [],
+    "medical_history": []
+  },
+  "lifestyle": {
+    "exercise_frequency": "每周1-2次",
+    "exercise_type": "力量训练",
+    "diet_type": "生酮饮食",
+    "sleep_hours": 7.0,
+    "sleep_quality": "一般",
+    "stress_level": "中等",
+    "smoking": false,
+    "alcohol_consumption": "每周1-2次",
+    "work_schedule": "规律"
+  },
+  "health_goals": {
+    "primary_goals": [
+      "慢性病管理",
+      "增肌"
+    ],
+    "target_weight": 88.8,
+    "target_bp_systolic": null,
+    "target_bp_diastolic": null,
+    "target_blood_sugar": null,
+    "timeline": "1年"
+  },
+  "risk_profile": {
+    "medical_risk_tolerance": "保守型",
+    "lifestyle_change_tolerance": "稳健型",
+    "exercise_intensity_preference": "高",
+    "diet_change_willingness": "高"
+  },
+  "data_sources": {
+    "wearable_devices": [
+      "Garmin"
+    ],
+    "health_apps": [
+      "丁香医生"
+    ],
+    "medical_records": true,
+    "lab_results": false
+  },
+  "health_data_history": {
+    "血压": [
+      {
+        "timestamp": "2025-06-14T15:31:56.356979",
+        "value": {
+          "systolic": 112,
+          "diastolic": 80
+        }
+      },
+      {
+        "timestamp": "2025-06-18T15:31:56.356979",
+        "value": {
+          "systolic": 134,
+          "diastolic": 86
+        }
+      },
+      {
+        "timestamp": "2025-06-19T15:31:56.356979",
+        "value": {
+          "systolic": 153,
+          "diastolic": 78
+        }
+      },
+      {
+        "timestamp": "2025-06-22T15:31:56.356979",
+        "value": {
+          "systolic": 124,
+          "diastolic": 89
+        }
+      },
+      {
+        "timestamp": "2025-06-23T15:31:56.356979",
+        "value": {
+          "systolic": 131,
+          "diastolic": 75
+        }
+      },
+      {
+        "timestamp": "2025-06-26T15:31:56.356979",
+        "value": {
+          "systolic": 136,
+          "diastolic": 86
+        }
+      },
+      {
+        "timestamp": "2025-06-28T15:31:56.356979",
+        "value": {
+          "systolic": 151,
+          "diastolic": 83
+        }
+      },
+      {
+        "timestamp": "2025-07-01T15:31:56.356979",
+        "value": {
+          "systolic": 117,
+          "diastolic": 79
+        }
+      },
+      {
+        "timestamp": "2025-07-02T15:31:56.356979",
+        "value": {
+          "systolic": 155,
+          "diastolic": 97
+        }
+      },
+      {
+        "timestamp": "2025-07-14T15:31:56.356979",
+        "value": {
+          "systolic": 143,
+          "diastolic": 93
+        }
+      },
+      {
+        "timestamp": "2025-07-18T15:31:56.356979",
+        "value": {
+          "systolic": 112,
+          "diastolic": 74
+        }
+      },
+      {
+        "timestamp": "2025-07-20T15:31:56.356979",
+        "value": {
+          "systolic": 156,
+          "diastolic": 94
+        }
+      },
+      {
+        "timestamp": "2025-07-30T15:31:56.356979",
+        "value": {
+          "systolic": 133,
+          "diastolic": 86
+        }
+      },
+      {
+        "timestamp": "2025-07-31T15:31:56.356979",
+        "value": {
+          "systolic": 150,
+          "diastolic": 80
+        }
+      },
+      {
+        "timestamp": "2025-08-01T15:31:56.356979",
+        "value": {
+          "systolic": 118,
+          "diastolic": 100
+        }
+      },
+      {
+        "timestamp": "2025-08-03T15:31:56.356979",
+        "value": {
+          "systolic": 117,
+          "diastolic": 70
+        }
+      },
+      {
+        "timestamp": "2025-08-20T15:31:56.356979",
+        "value": {
+          "systolic": 133,
+          "diastolic": 75
+        }
+      },
+      {
+        "timestamp": "2025-08-27T15:31:56.356979",
+        "value": {
+          "systolic": 141,
+          "diastolic": 98
+        }
+      },
+      {
+        "timestamp": "2025-08-29T15:31:56.356979",
+        "value": {
+          "systolic": 122,
+          "diastolic": 71
+        }
+      },
+      {
+        "timestamp": "2025-09-01T15:31:56.356979",
+        "value": {
+          "systolic": 151,
+          "diastolic": 74
+        }
+      },
+      {
+        "timestamp": "2025-09-09T15:31:56.356979",
+        "value": {
+          "systolic": 126,
+          "diastolic": 96
+        }
+      }
+    ],
+    "体重": [
+      {
+        "timestamp": "2025-06-16T15:31:56.356979",
+        "value": 65.0
+      },
+      {
+        "timestamp": "2025-06-19T15:31:56.356979",
+        "value": 64.8
+      },
+      {
+        "timestamp": "2025-06-21T15:31:56.356979",
+        "value": 65.3
+      },
+      {
+        "timestamp": "2025-06-23T15:31:56.356979",
+        "value": 63.1
+      },
+      {
+        "timestamp": "2025-06-23T15:31:56.356979",
+        "value": 63.9
+      },
+      {
+        "timestamp": "2025-06-26T15:31:56.356979",
+        "value": 66.5
+      },
+      {
+        "timestamp": "2025-06-30T15:31:56.356979",
+        "value": 65.0
+      },
+      {
+        "timestamp": "2025-07-01T15:31:56.356979",
+        "value": 65.6
+      },
+      {
+        "timestamp": "2025-07-07T15:31:56.356979",
+        "value": 62.6
+      },
+      {
+        "timestamp": "2025-07-09T15:31:56.356979",
+        "value": 64.5
+      },
+      {
+        "timestamp": "2025-07-11T15:31:56.356979",
+        "value": 64.1
+      },
+      {
+        "timestamp": "2025-07-16T15:31:56.356979",
+        "value": 65.4
+      },
+      {
+        "timestamp": "2025-07-21T15:31:56.356979",
+        "value": 63.6
+      },
+      {
+        "timestamp": "2025-07-22T15:31:56.356979",
+        "value": 67.6
+      },
+      {
+        "timestamp": "2025-07-23T15:31:56.356979",
+        "value": 64.2
+      },
+      {
+        "timestamp": "2025-07-26T15:31:56.356979",
+        "value": 66.8
+      },
+      {
+        "timestamp": "2025-07-28T15:31:56.356979",
+        "value": 64.2
+      },
+      {
+        "timestamp": "2025-07-28T15:31:56.356979",
+        "value": 62.7
+      },
+      {
+        "timestamp": "2025-07-31T15:31:56.356979",
+        "value": 62.8
+      },
+      {
+        "timestamp": "2025-08-10T15:31:56.356979",
+        "value": 66.8
+      },
+      {
+        "timestamp": "2025-08-11T15:31:56.356979",
+        "value": 64.1
+      },
+      {
+        "timestamp": "2025-08-13T15:31:56.356979",
+        "value": 62.9
+      },
+      {
+        "timestamp": "2025-08-20T15:31:56.356979",
+        "value": 67.0
+      },
+      {
+        "timestamp": "2025-08-23T15:31:56.356979",
+        "value": 62.7
+      },
+      {
+        "timestamp": "2025-08-24T15:31:56.356979",
+        "value": 62.2
+      },
+      {
+        "timestamp": "2025-08-25T15:31:56.356979",
+        "value": 63.4
+      },
+      {
+        "timestamp": "2025-08-27T15:31:56.356979",
+        "value": 66.9
+      },
+      {
+        "timestamp": "2025-08-29T15:31:56.356979",
+        "value": 63.0
+      },
+      {
+        "timestamp": "2025-08-30T15:31:56.356979",
+        "value": 63.7
+      },
+      {
+        "timestamp": "2025-08-31T15:31:56.356979",
+        "value": 62.3
+      },
+      {
+        "timestamp": "2025-09-01T15:31:56.356979",
+        "value": 67.5
+      },
+      {
+        "timestamp": "2025-09-08T15:31:56.356979",
+        "value": 67.6
+      },
+      {
+        "timestamp": "2025-09-11T15:31:56.356979",
+        "value": 66.5
+      },
+      {
+        "timestamp": "2025-09-11T15:31:56.356979",
+        "value": 64.9
+      }
+    ],
+    "心率": [
+      {
+        "timestamp": "2025-06-13T15:31:56.356979",
+        "value": 89
+      },
+      {
+        "timestamp": "2025-06-16T15:31:56.356979",
+        "value": 79
+      },
+      {
+        "timestamp": "2025-06-20T15:31:56.356979",
+        "value": 77
+      },
+      {
+        "timestamp": "2025-06-29T15:31:56.356979",
+        "value": 64
+      },
+      {
+        "timestamp": "2025-07-03T15:31:56.356979",
+        "value": 95
+      },
+      {
+        "timestamp": "2025-07-04T15:31:56.356979",
+        "value": 81
+      },
+      {
+        "timestamp": "2025-07-06T15:31:56.356979",
+        "value": 75
+      },
+      {
+        "timestamp": "2025-07-07T15:31:56.356979",
+        "value": 65
+      },
+      {
+        "timestamp": "2025-07-08T15:31:56.356979",
+        "value": 83
+      },
+      {
+        "timestamp": "2025-07-08T15:31:56.356979",
+        "value": 100
+      },
+      {
+        "timestamp": "2025-07-10T15:31:56.356979",
+        "value": 60
+      },
+      {
+        "timestamp": "2025-07-13T15:31:56.356979",
+        "value": 87
+      },
+      {
+        "timestamp": "2025-07-14T15:31:56.356979",
+        "value": 68
+      },
+      {
+        "timestamp": "2025-07-14T15:31:56.356979",
+        "value": 60
+      },
+      {
+        "timestamp": "2025-07-21T15:31:56.356979",
+        "value": 95
+      },
+      {
+        "timestamp": "2025-07-25T15:31:56.356979",
+        "value": 66
+      },
+      {
+        "timestamp": "2025-07-25T15:31:56.356979",
+        "value": 71
+      },
+      {
+        "timestamp": "2025-07-29T15:31:56.356979",
+        "value": 72
+      },
+      {
+        "timestamp": "2025-07-30T15:31:56.356979",
+        "value": 74
+      },
+      {
+        "timestamp": "2025-07-30T15:31:56.356979",
+        "value": 75
+      },
+      {
+        "timestamp": "2025-07-31T15:31:56.356979",
+        "value": 80
+      },
+      {
+        "timestamp": "2025-08-03T15:31:56.356979",
+        "value": 66
+      },
+      {
+        "timestamp": "2025-08-05T15:31:56.356979",
+        "value": 83
+      },
+      {
+        "timestamp": "2025-08-05T15:31:56.356979",
+        "value": 84
+      },
+      {
+        "timestamp": "2025-08-07T15:31:56.356979",
+        "value": 65
+      },
+      {
+        "timestamp": "2025-08-08T15:31:56.356979",
+        "value": 67
+      },
+      {
+        "timestamp": "2025-08-08T15:31:56.356979",
+        "value": 86
+      },
+      {
+        "timestamp": "2025-08-10T15:31:56.356979",
+        "value": 83
+      },
+      {
+        "timestamp": "2025-08-12T15:31:56.356979",
+        "value": 85
+      },
+      {
+        "timestamp": "2025-08-13T15:31:56.356979",
+        "value": 80
+      },
+      {
+        "timestamp": "2025-08-14T15:31:56.356979",
+        "value": 91
+      },
+      {
+        "timestamp": "2025-08-14T15:31:56.356979",
+        "value": 70
+      },
+      {
+        "timestamp": "2025-08-16T15:31:56.356979",
+        "value": 89
+      },
+      {
+        "timestamp": "2025-08-21T15:31:56.356979",
+        "value": 90
+      },
+      {
+        "timestamp": "2025-08-22T15:31:56.356979",
+        "value": 71
+      },
+      {
+        "timestamp": "2025-08-22T15:31:56.356979",
+        "value": 76
+      },
+      {
+        "timestamp": "2025-08-23T15:31:56.356979",
+        "value": 87
+      },
+      {
+        "timestamp": "2025-08-24T15:31:56.356979",
+        "value": 75
+      },
+      {
+        "timestamp": "2025-08-25T15:31:56.356979",
+        "value": 65
+      },
+      {
+        "timestamp": "2025-08-25T15:31:56.356979",
+        "value": 78
+      },
+      {
+        "timestamp": "2025-08-26T15:31:56.356979",
+        "value": 98
+      },
+      {
+        "timestamp": "2025-08-30T15:31:56.356979",
+        "value": 98
+      },
+      {
+        "timestamp": "2025-08-30T15:31:56.356979",
+        "value": 95
+      },
+      {
+        "timestamp": "2025-08-31T15:31:56.356979",
+        "value": 82
+      },
+      {
+        "timestamp": "2025-09-01T15:31:56.356979",
+        "value": 65
+      },
+      {
+        "timestamp": "2025-09-04T15:31:56.356979",
+        "value": 82
+      },
+      {
+        "timestamp": "2025-09-04T15:31:56.356979",
+        "value": 76
+      },
+      {
+        "timestamp": "2025-09-04T15:31:56.356979",
+        "value": 92
+      },
+      {
+        "timestamp": "2025-09-06T15:31:56.356979",
+        "value": 81
+      },
+      {
+        "timestamp": "2025-09-10T15:31:56.356979",
+        "value": 76
+      },
+      {
+        "timestamp": "2025-09-10T15:31:56.356979",
+        "value": 67
+      },
+      {
+        "timestamp": "2025-09-10T15:31:56.356979",
+        "value": 84
+      },
+      {
+        "timestamp": "2025-09-10T15:31:56.356979",
+        "value": 70
+      },
+      {
+        "timestamp": "2025-09-11T15:31:56.356979",
+        "value": 63
+      },
+      {
+        "timestamp": "2025-09-11T15:31:56.356979",
+        "value": 86
+      }
+    ]
+  }
+}

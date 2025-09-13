@@ -1,0 +1,10 @@
+{
+  "dataset_name": "FreedomIntelligence/medical-o1-reasoning-SFT",
+  "description": "医学推理数据集，用于训练医学LLM的复杂推理能力",
+  "splits": [
+    "train"
+  ],
+  "total_samples": 24887,
+  "download_date": "2025-09-12 11:38:19.750840",
+  "source": "https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT"
+}

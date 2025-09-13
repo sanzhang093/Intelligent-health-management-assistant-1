@@ -1,0 +1,23 @@
+# 智能健康管理助手 - 环境变量配置示例
+# 复制此文件为 .env 并填入您的真实API密钥
+
+# DashScope API密钥 (必需)
+# 获取地址: https://dashscope.console.aliyun.com/
+DASHSCOPE_API_KEY=your_dashscope_api_key_here
+
+# 可选配置
+# 模型配置
+QWEN_MODEL=qwen-max
+QWEN_TIMEOUT=60
+QWEN_RETRY_COUNT=3
+
+# 应用配置
+APP_DEBUG=False
+LOG_LEVEL=INFO
+
+# 数据库配置 (如果需要)
+# DATABASE_URL=sqlite:///health_management.db
+
+# 其他API配置 (如果需要)
+# OPENAI_API_KEY=your_openai_key_here
+# ANTHROPIC_API_KEY=your_anthropic_key_here

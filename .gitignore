@@ -1,0 +1,120 @@
+# 智能健康管理助手 - Git忽略文件
+
+# 环境变量和配置文件
+.env
+.env.local
+.env.production
+.env.staging
+config.ini
+secrets.json
+
+# API密钥和敏感信息
+*api_key*
+*secret*
+*password*
+*token*
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 临时文件
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# 操作系统相关
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 数据文件 (可选，根据需要调整)
+# data/profiles/
+# data/medical_dataset/
+# reports/
+
+# 缓存文件
+.cache/
+cache/
+*.cache
+
+# 测试覆盖率
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# 备份文件
+*.bak
+*.backup
+*_backup.*
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 模型文件 (如果很大)
+*.model
+*.pkl
+*.bin
+
+# 用户特定文件
+user_config.json
+local_settings.py

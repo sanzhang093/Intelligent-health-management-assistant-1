@@ -1,0 +1,286 @@
+{
+  "user_id": "user_001",
+  "created_at": "2024-10-26T15:31:56.246975",
+  "updated_at": "2024-10-31T15:31:56.246975",
+  "demographics": {
+    "age": 35,
+    "gender": "male",
+    "height": 172,
+    "weight": 84.3,
+    "occupation": "金融业",
+    "location": "重庆"
+  },
+  "health_status": {
+    "chronic_conditions": [
+      "心脏病"
+    ],
+    "allergies": [],
+    "current_medications": [
+      "鱼油",
+      "抗生素"
+    ],
+    "recent_symptoms": [],
+    "medical_history": []
+  },
+  "lifestyle": {
+    "exercise_frequency": "每周5次以上",
+    "exercise_type": "球类运动",
+    "diet_type": "生酮饮食",
+    "sleep_hours": 7.3,
+    "sleep_quality": "很好",
+    "stress_level": "高",
+    "smoking": false,
+    "alcohol_consumption": "偶尔",
+    "work_schedule": "夜班"
+  },
+  "health_goals": {
+    "primary_goals": [
+      "增肌",
+      "增强免疫力"
+    ],
+    "target_weight": 83.0,
+    "target_bp_systolic": null,
+    "target_bp_diastolic": null,
+    "target_blood_sugar": null,
+    "timeline": "1个月"
+  },
+  "risk_profile": {
+    "medical_risk_tolerance": "稳健型",
+    "lifestyle_change_tolerance": "积极型",
+    "exercise_intensity_preference": "低",
+    "diet_change_willingness": "高"
+  },
+  "data_sources": {
+    "wearable_devices": [
+      "Apple Watch"
+    ],
+    "health_apps": [
+      "薄荷健康"
+    ],
+    "medical_records": false,
+    "lab_results": false
+  },
+  "health_data_history": {
+    "血压": [
+      {
+        "timestamp": "2025-06-17T15:31:56.246975",
+        "value": {
+          "systolic": 148,
+          "diastolic": 94
+        }
+      },
+      {
+        "timestamp": "2025-06-20T15:31:56.246975",
+        "value": {
+          "systolic": 117,
+          "diastolic": 88
+        }
+      },
+      {
+        "timestamp": "2025-06-28T15:31:56.246975",
+        "value": {
+          "systolic": 134,
+          "diastolic": 92
+        }
+      },
+      {
+        "timestamp": "2025-07-02T15:31:56.246975",
+        "value": {
+          "systolic": 117,
+          "diastolic": 71
+        }
+      },
+      {
+        "timestamp": "2025-07-12T15:31:56.246975",
+        "value": {
+          "systolic": 119,
+          "diastolic": 89
+        }
+      },
+      {
+        "timestamp": "2025-07-27T15:31:56.246975",
+        "value": {
+          "systolic": 112,
+          "diastolic": 87
+        }
+      },
+      {
+        "timestamp": "2025-08-16T15:31:56.246975",
+        "value": {
+          "systolic": 118,
+          "diastolic": 98
+        }
+      },
+      {
+        "timestamp": "2025-08-19T15:31:56.246975",
+        "value": {
+          "systolic": 152,
+          "diastolic": 74
+        }
+      },
+      {
+        "timestamp": "2025-09-02T15:31:56.246975",
+        "value": {
+          "systolic": 153,
+          "diastolic": 90
+        }
+      },
+      {
+        "timestamp": "2025-09-02T15:31:56.246975",
+        "value": {
+          "systolic": 148,
+          "diastolic": 81
+        }
+      },
+      {
+        "timestamp": "2025-09-04T15:31:56.246975",
+        "value": {
+          "systolic": 150,
+          "diastolic": 72
+        }
+      }
+    ],
+    "体重": [
+      {
+        "timestamp": "2025-06-23T15:31:56.246975",
+        "value": 59.2
+      },
+      {
+        "timestamp": "2025-06-27T15:31:56.246975",
+        "value": 56.8
+      },
+      {
+        "timestamp": "2025-06-27T15:31:56.246975",
+        "value": 56.6
+      },
+      {
+        "timestamp": "2025-07-04T15:31:56.246975",
+        "value": 59.5
+      },
+      {
+        "timestamp": "2025-07-09T15:31:56.246975",
+        "value": 59.9
+      },
+      {
+        "timestamp": "2025-07-12T15:31:56.246975",
+        "value": 61.9
+      },
+      {
+        "timestamp": "2025-07-13T15:31:56.246975",
+        "value": 56.7
+      },
+      {
+        "timestamp": "2025-07-15T15:31:56.246975",
+        "value": 58.9
+      },
+      {
+        "timestamp": "2025-07-16T15:31:56.246975",
+        "value": 59.5
+      },
+      {
+        "timestamp": "2025-07-16T15:31:56.246975",
+        "value": 57.2
+      },
+      {
+        "timestamp": "2025-07-23T15:31:56.246975",
+        "value": 57.0
+      },
+      {
+        "timestamp": "2025-07-24T15:31:56.246975",
+        "value": 57.7
+      },
+      {
+        "timestamp": "2025-07-24T15:31:56.246975",
+        "value": 58.9
+      },
+      {
+        "timestamp": "2025-07-25T15:31:56.246975",
+        "value": 61.3
+      },
+      {
+        "timestamp": "2025-07-27T15:31:56.246975",
+        "value": 56.6
+      },
+      {
+        "timestamp": "2025-07-27T15:31:56.246975",
+        "value": 60.6
+      },
+      {
+        "timestamp": "2025-08-01T15:31:56.246975",
+        "value": 62.2
+      },
+      {
+        "timestamp": "2025-08-01T15:31:56.246975",
+        "value": 61.2
+      },
+      {
+        "timestamp": "2025-08-01T15:31:56.246975",
+        "value": 61.7
+      },
+      {
+        "timestamp": "2025-08-08T15:31:56.246975",
+        "value": 58.8
+      },
+      {
+        "timestamp": "2025-08-08T15:31:56.246975",
+        "value": 59.7
+      },
+      {
+        "timestamp": "2025-08-13T15:31:56.246975",
+        "value": 59.4
+      },
+      {
+        "timestamp": "2025-08-15T15:31:56.246975",
+        "value": 58.3
+      },
+      {
+        "timestamp": "2025-08-15T15:31:56.246975",
+        "value": 59.6
+      },
+      {
+        "timestamp": "2025-08-15T15:31:56.246975",
+        "value": 56.4
+      },
+      {
+        "timestamp": "2025-08-18T15:31:56.246975",
+        "value": 57.0
+      },
+      {
+        "timestamp": "2025-08-20T15:31:56.246975",
+        "value": 59.3
+      },
+      {
+        "timestamp": "2025-08-22T15:31:56.246975",
+        "value": 56.8
+      },
+      {
+        "timestamp": "2025-08-26T15:31:56.246975",
+        "value": 59.1
+      },
+      {
+        "timestamp": "2025-08-27T15:31:56.246975",
+        "value": 58.5
+      },
+      {
+        "timestamp": "2025-08-31T15:31:56.246975",
+        "value": 57.2
+      },
+      {
+        "timestamp": "2025-09-02T15:31:56.246975",
+        "value": 59.0
+      },
+      {
+        "timestamp": "2025-09-08T15:31:56.246975",
+        "value": 58.4
+      },
+      {
+        "timestamp": "2025-09-08T15:31:56.246975",
+        "value": 57.3
+      },
+      {
+        "timestamp": "2025-09-10T15:31:56.246975",
+        "value": 57.7
+      }
+    ]
+  }
+}

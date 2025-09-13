@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "title": "健康指标标准数据库",
+    "description": "各年龄段健康指标正常范围标准，用于健康评估和对比分析",
+    "version": "1.0.0",
+    "created_at": "2025-01-10",
+    "source": "基于WHO、中国卫健委、美国心脏协会等权威机构标准",
+    "note": "数据仅供参考，具体诊断请咨询专业医生"
+  },
+  "age_groups": {
+    "18-25": {"min": 18, "max": 25, "label": "青年早期"},
+    "26-35": {"min": 26, "max": 35, "label": "青年期"},
+    "36-45": {"min": 36, "max": 45, "label": "中年早期"},
+    "46-55": {"min": 46, "max": 55, "label": "中年期"},
+    "56-65": {"min": 56, "max": 65, "label": "中老年期"},
+    "66-75": {"min": 66, "max": 75, "label": "老年早期"},
+    "76+": {"min": 76, "max": 100, "label": "老年期"}
+  },
+  "health_indicators": {
+    "bmi": {
+      "name": "身体质量指数",
+      "unit": "kg/m²",
+      "description": "体重与身高的平方比值",
+      "ranges": {
+        "male": {
+          "18-25": {"normal": [18.5, 24.9], "overweight": [25.0, 29.9], "obese": [30.0, 100]},
+          "26-35": {"normal": [18.5, 24.9], "overweight": [25.0, 29.9], "obese": [30.0, 100]},
+          "36-45": {"normal": [18.5, 24.9], "overweight": [25.0, 29.9], "obese": [30.0, 100]},
+          "46-55": {"normal": [18.5, 24.9], "overweight": [25.0, 29.9], "obese": [30.0, 100]},
+          "56-65": {"normal": [18.5, 24.9], "overweight": [25.0, 29.9], "obese": [30.0, 100]},
+          "66-75": {"normal": [18.5, 24.9], "overweight": [25.0, 29.9], "obese": [30.0, 100]},
+          "76+": {"normal": [18.5, 24.9], "overweight": [25.0, 29.9], "obese": [30.0, 100]}
+        },
+        "female": {
+          "18-25": {"normal": [18.5, 23.9], "overweight": [24.0, 27.9], "obese": [28.0, 100]},
+          "26-35": {"normal": [18.5, 23.9], "overweight": [24.0, 27.9], "obese": [28.0, 100]},
+          "36-45": {"normal": [18.5, 23.9], "overweight": [24.0, 27.9], "obese": [28.0, 100]},
+          "46-55": {"normal": [18.5, 23.9], "overweight": [24.0, 27.9], "obese": [28.0, 100]},
+          "56-65": {"normal": [18.5, 23.9], "overweight": [24.0, 27.9], "obese": [28.0, 100]},
+          "66-75": {"normal": [18.5, 23.9], "overweight": [24.0, 27.9], "obese": [28.0, 100]},
+          "76+": {"normal": [18.5, 23.9], "overweight": [24.0, 27.9], "obese": [28.0, 100]}
+        }
+      }
+    },
+    "blood_pressure": {
+      "name": "血压",
+      "unit": "mmHg",
+      "description": "收缩压/舒张压",
+      "ranges": {
+        "male": {
+          "18-25": {"normal": [90, 120], "high_normal": [121, 139], "hypertension": [140, 200]},
+          "26-35": {"normal": [90, 120], "high_normal": [121, 139], "hypertension": [140, 200]},
+          "36-45": {"normal": [90, 130], "high_normal": [131, 139], "hypertension": [140, 200]},
+          "46-55": {"normal": [90, 130], "high_normal": [131, 139], "hypertension": [140, 200]},
+          "56-65": {"normal": [90, 140], "high_normal": [141, 159], "hypertension": [160, 200]},
+          "66-75": {"normal": [90, 140], "high_normal": [141, 159], "hypertension": [160, 200]},
+          "76+": {"normal": [90, 140], "high_normal": [141, 159], "hypertension": [160, 200]}
+        },
+        "female": {
+          "18-25": {"normal": [85, 115], "high_normal": [116, 134], "hypertension": [135, 200]},
+          "26-35": {"normal": [85, 115], "high_normal": [116, 134], "hypertension": [135, 200]},
+          "36-45": {"normal": [85, 125], "high_normal": [126, 134], "hypertension": [135, 200]},
+          "46-55": {"normal": [85, 125], "high_normal": [126, 134], "hypertension": [135, 200]},
+          "56-65": {"normal": [85, 135], "high_normal": [136, 154], "hypertension": [155, 200]},
+          "66-75": {"normal": [85, 135], "high_normal": [136, 154], "hypertension": [155, 200]},
+          "76+": {"normal": [85, 135], "high_normal": [136, 154], "hypertension": [155, 200]}
+        }
+      }
+    },
+    "heart_rate": {
+      "name": "心率",
+      "unit": "次/分钟",
+      "description": "静息心率",
+      "ranges": {
+        "male": {
+          "18-25": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "26-35": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "36-45": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "46-55": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "56-65": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "66-75": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "76+": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]}
+        },
+        "female": {
+          "18-25": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "26-35": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "36-45": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "46-55": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "56-65": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "66-75": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]},
+          "76+": {"normal": [60, 100], "athletic": [40, 60], "high": [101, 120]}
+        }
+      }
+    },
+    "blood_sugar": {
+      "name": "血糖",
+      "unit": "mmol/L",
+      "description": "空腹血糖",
+      "ranges": {
+        "male": {
+          "18-25": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "26-35": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "36-45": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "46-55": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "56-65": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "66-75": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "76+": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]}
+        },
+        "female": {
+          "18-25": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "26-35": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "36-45": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "46-55": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "56-65": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "66-75": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]},
+          "76+": {"normal": [3.9, 6.1], "pre_diabetes": [6.1, 7.0], "diabetes": [7.0, 20]}
+        }
+      }
+    },
+    "cholesterol": {
+      "name": "总胆固醇",
+      "unit": "mmol/L",
+      "description": "血液中总胆固醇水平",
+      "ranges": {
+        "male": {
+          "18-25": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "26-35": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "36-45": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "46-55": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "56-65": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "66-75": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "76+": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]}
+        },
+        "female": {
+          "18-25": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "26-35": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "36-45": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "46-55": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "56-65": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "66-75": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]},
+          "76+": {"normal": [0, 5.2], "borderline": [5.2, 6.2], "high": [6.2, 20]}
+        }
+      }
+    },
+    "sleep_hours": {
+      "name": "睡眠时间",
+      "unit": "小时",
+      "description": "每日睡眠时长",
+      "ranges": {
+        "male": {
+          "18-25": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "26-35": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "36-45": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "46-55": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "56-65": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "66-75": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "76+": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]}
+        },
+        "female": {
+          "18-25": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "26-35": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "36-45": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "46-55": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "56-65": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "66-75": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]},
+          "76+": {"optimal": [7, 9], "acceptable": [6, 10], "insufficient": [0, 6], "excessive": [10, 24]}
+        }
+      }
+    },
+    "daily_steps": {
+      "name": "每日步数",
+      "unit": "步",
+      "description": "每日步行步数",
+      "ranges": {
+        "male": {
+          "18-25": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "26-35": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "36-45": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "46-55": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "56-65": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "66-75": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "76+": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]}
+        },
+        "female": {
+          "18-25": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "26-35": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "36-45": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "46-55": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "56-65": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "66-75": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]},
+          "76+": {"sedentary": [0, 4999], "low": [5000, 7499], "normal": [7500, 9999], "active": [10000, 15000]}
+        }
+      }
+    }
+  },
+  "lifestyle_standards": {
+    "exercise_frequency": {
+      "name": "运动频率",
+      "categories": {
+        "无": {"score": 0, "description": "缺乏运动，健康风险较高"},
+        "偶尔": {"score": 1, "description": "运动不足，建议增加运动频率"},
+        "每周1-2次": {"score": 2, "description": "运动频率偏低，建议增加到每周3次以上"},
+        "每周3-4次": {"score": 3, "description": "运动频率良好，符合健康建议"},
+        "每周5次以上": {"score": 4, "description": "运动频率优秀，保持良好习惯"}
+      }
+    },
+    "sleep_quality": {
+      "name": "睡眠质量",
+      "categories": {
+        "很差": {"score": 0, "description": "睡眠质量极差，严重影响健康"},
+        "差": {"score": 1, "description": "睡眠质量较差，需要改善"},
+        "一般": {"score": 2, "description": "睡眠质量一般，有改善空间"},
+        "好": {"score": 3, "description": "睡眠质量良好"},
+        "很好": {"score": 4, "description": "睡眠质量优秀"}
+      }
+    },
+    "stress_level": {
+      "name": "压力水平",
+      "categories": {
+        "很高": {"score": 0, "description": "压力过大，需要及时减压"},
+        "高": {"score": 1, "description": "压力较高，建议学习压力管理"},
+        "中等": {"score": 2, "description": "压力适中，注意调节"},
+        "低": {"score": 3, "description": "压力较低，状态良好"},
+        "很低": {"score": 4, "description": "压力很小，心理状态优秀"}
+      }
+    },
+    "alcohol_consumption": {
+      "name": "饮酒频率",
+      "categories": {
+        "无": {"score": 4, "description": "不饮酒，健康选择"},
+        "偶尔": {"score": 3, "description": "偶尔饮酒，影响较小"},
+        "每周1-2次": {"score": 2, "description": "适量饮酒，注意控制量"},
+        "每周3-4次": {"score": 1, "description": "饮酒较频繁，建议减少"},
+        "每天": {"score": 0, "description": "饮酒过度，健康风险高"}
+      }
+    }
+  },
+  "health_risk_factors": {
+    "chronic_diseases": {
+      "高血压": {"risk_level": "high", "prevention": ["低盐饮食", "规律运动", "控制体重", "戒烟限酒"]},
+      "糖尿病": {"risk_level": "high", "prevention": ["控制饮食", "规律运动", "监测血糖", "保持健康体重"]},
+      "高血脂": {"risk_level": "medium", "prevention": ["低脂饮食", "规律运动", "控制体重", "定期检查"]},
+      "心脏病": {"risk_level": "high", "prevention": ["健康饮食", "规律运动", "控制血压", "戒烟限酒"]},
+      "哮喘": {"risk_level": "medium", "prevention": ["避免过敏原", "规律用药", "适度运动", "保持室内清洁"]},
+      "关节炎": {"risk_level": "medium", "prevention": ["适度运动", "控制体重", "避免过度劳累", "保暖"]},
+      "胃病": {"risk_level": "low", "prevention": ["规律饮食", "避免刺激性食物", "戒烟限酒", "保持心情愉快"]},
+      "肝病": {"risk_level": "high", "prevention": ["戒酒", "健康饮食", "避免滥用药物", "定期检查"]},
+      "肾病": {"risk_level": "high", "prevention": ["控制血压血糖", "低盐饮食", "适量饮水", "定期检查"]},
+      "甲状腺疾病": {"risk_level": "medium", "prevention": ["规律检查", "合理饮食", "避免过度压力", "及时治疗"]},
+      "抑郁症": {"risk_level": "medium", "prevention": ["保持社交", "规律运动", "充足睡眠", "寻求专业帮助"]},
+      "焦虑症": {"risk_level": "medium", "prevention": ["放松训练", "规律作息", "适度运动", "心理疏导"]}
+    },
+    "lifestyle_risks": {
+      "smoking": {"risk_level": "high", "impact": "增加多种疾病风险", "prevention": ["戒烟", "避免二手烟", "寻求专业帮助"]},
+      "sedentary": {"risk_level": "medium", "impact": "增加心血管疾病风险", "prevention": ["增加日常活动", "规律运动", "减少久坐"]},
+      "poor_sleep": {"risk_level": "medium", "impact": "影响免疫力和认知功能", "prevention": ["规律作息", "改善睡眠环境", "避免睡前刺激"]},
+      "high_stress": {"risk_level": "medium", "impact": "影响心理健康和免疫力", "prevention": ["压力管理", "放松训练", "寻求支持"]},
+      "unhealthy_diet": {"risk_level": "medium", "impact": "增加慢性病风险", "prevention": ["均衡饮食", "控制盐糖摄入", "多吃蔬果"]}
+    }
+  },
+  "recommendations": {
+    "age_specific": {
+      "18-25": {
+        "focus": ["建立健康习惯", "预防慢性病", "心理健康"],
+        "recommendations": ["规律运动", "健康饮食", "充足睡眠", "压力管理", "定期体检"]
+      },
+      "26-35": {
+        "focus": ["维持健康状态", "预防职业病", "家庭健康"],
+        "recommendations": ["工作生活平衡", "定期运动", "健康饮食", "定期体检", "心理健康"]
+      },
+      "36-45": {
+        "focus": ["预防中年疾病", "维持体能", "健康管理"],
+        "recommendations": ["加强运动", "控制体重", "定期体检", "健康饮食", "压力管理"]
+      },
+      "46-55": {
+        "focus": ["慢性病预防", "健康监测", "生活方式调整"],
+        "recommendations": ["定期体检", "控制慢性病风险", "适度运动", "健康饮食", "心理健康"]
+      },
+      "56-65": {
+        "focus": ["健康维护", "疾病管理", "生活质量"],
+        "recommendations": ["定期体检", "慢性病管理", "适度运动", "健康饮食", "社交活动"]
+      },
+      "66-75": {
+        "focus": ["健康维护", "功能保持", "安全预防"],
+        "recommendations": ["定期体检", "适度运动", "健康饮食", "安全防护", "社交活动"]
+      },
+      "76+": {
+        "focus": ["健康维护", "功能保持", "生活质量"],
+        "recommendations": ["定期体检", "轻度运动", "健康饮食", "安全防护", "心理健康"]
+      }
+    },
+    "gender_specific": {
+      "male": {
+        "common_risks": ["心血管疾病", "前列腺疾病", "肝病"],
+        "recommendations": ["定期体检", "控制血压血脂", "适度运动", "戒烟限酒", "心理健康"]
+      },
+      "female": {
+        "common_risks": ["骨质疏松", "乳腺癌", "甲状腺疾病"],
+        "recommendations": ["定期体检", "补钙", "乳腺检查", "适度运动", "心理健康"]
+      }
+    }
+  }
+}
